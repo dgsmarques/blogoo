@@ -1,0 +1,17 @@
+1|testado|A|testado
+2|testadotestado|A|testado
+3|teste|A|teste
+4|teste|A|teste
+8|teste|A|teste
+9|teste|A|teste
+12|teste|A|teste
+13|teste|A|teste
+14|teste|A|teste
+15|teste|A|teste
+16|teste|A|teste
+17|teste|A|teste
+18|teste|A|teste
+19|teste|A|teste
+20|teste|A|teste
+21|teste|A|teste
+24|teste|B|teste
