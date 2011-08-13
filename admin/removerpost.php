@@ -6,7 +6,7 @@
     $arquivo = ("../banco/blog.txt");
 
 
-    if($_GET['id']){
+    if ($_GET['id']) {
 
         $id = ($_GET['id']);
 

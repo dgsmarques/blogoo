@@ -11,7 +11,7 @@
 
 class Post
 {
-    private $txt;
+    public $txt;
 
     /**
     * __construct é um método mágico que e executado quando objeto 

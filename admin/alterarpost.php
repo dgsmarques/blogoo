@@ -5,16 +5,16 @@ require_once('../autoload.php');
 $post = new Post;
 
 $arquivo = ("../banco/blog.txt");
-if ($_GET['id']){
+if ($_GET['id']) {
     $id = ($_GET['id']);
-    if($_POST) {
+    if ($_POST) {
         $post->alterarPost($_POST, $arquivo, $id);
         header('location: index.php');
     }
 
 $linhas = $post->listarPost($arquivo);
 
-    foreach($linhas as $chave => $linha){
+    foreach ($linhas as $chave => $linha) {
         $dados = explode('|', $linha);
 
         if ($id == $dados[0]) {

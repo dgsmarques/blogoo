@@ -42,7 +42,7 @@ class Banco
             $ultimo = explode('|', $linhas[$ultimo]);
             $id = $ultimo[0] + 1;
 
-       }else{
+       } else {
 
            $id = 1;
 
@@ -85,7 +85,7 @@ class Banco
 		*/
         $linhas = file($arquivo, FILE_SKIP_EMPTY_LINES);
 
-        foreach($linhas as $chave => $linha){
+        foreach ($linhas as $chave => $linha) {
 
         $dados = explode('|', $linha);
         /*
@@ -147,7 +147,7 @@ class Banco
 		* Pegaremos os valores e campos recebidos no método e os organizaremos
 		* de modo que fique mais fácil como mostrado logo a seguir
 		*/
-        foreach ($linhas as $chave => $linha){
+        foreach ($linhas as $chave => $linha) {
 
             /**
 			* Explodimos a linha com o separador |
@@ -162,7 +162,7 @@ class Banco
                 $removido = true;
                 break;
 
-             }else {
+             } else {
                 $removido = false;
              }
         }

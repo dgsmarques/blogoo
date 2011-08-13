@@ -3,7 +3,7 @@
 require_once('../autoload.php');
 $post = new Post;
 
-    if ($_POST){
+    if ($_POST) {
         $post->inserirPost($_POST, '../banco/blog.txt');
     };
 $lista = $post->listarPost('../banco/blog.txt');

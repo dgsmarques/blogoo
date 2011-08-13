@@ -17,7 +17,7 @@
 	</tr>
 <?php
 
-    foreach($lista as $dados){
+    foreach ($lista as $dados) {
         $separado = explode('|', $dados);
 
             echo "
